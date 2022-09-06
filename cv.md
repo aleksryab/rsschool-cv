@@ -3,7 +3,7 @@
 ## Contacts
 - **Email:** aleksryabtsev@gmail.com
 - **Telegram:** @aleksryab
-- **Github:** [https://github.com/aleksryab][@aleksryab]
+- **Github:** [@aleksryab][https://github.com/aleksryab]
 
 ## About me
 I want to become a fronted developer.
@@ -16,8 +16,8 @@ I want to become a fronted developer.
 - Gulp, Webpack (basic)
 
 ## Code example
-[https://www.codewars.com/kata/52bc74d4ac05d0945d00054e/javascript](Description on Codewars)
-'''
+[Description on Codewars](https://www.codewars.com/kata/52bc74d4ac05d0945d00054e/javascript)
+```
 function firstNonRepeatingLetter(s) {
   for (const char of s) {
     let counter = 0;
@@ -28,8 +28,9 @@ function firstNonRepeatingLetter(s) {
   }
   return '';
 }
-'''
+```
+
 ## Experience
-I have done several educational projects.
-[https://github.com/aleksryab/toxin-hotel](Toxin-Hotel) shows my skills at the moment.
+I have done several educational projects.<br />
+[Toxin-Hotel](https://github.com/aleksryab/toxin-hotel) shows my skills at the moment.
 
