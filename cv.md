@@ -3,7 +3,7 @@
 ## Contacts
 - **Email:** aleksryabtsev@gmail.com
 - **Telegram:** @aleksryab
-- **Github:** [@aleksryab](https://github.com/aleksryab)
+- **GitHub:** [@aleksryab](https://github.com/aleksryab)
 
 ## About me
 I want to become a frontend developer.
