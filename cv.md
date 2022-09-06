@@ -1,4 +1,4 @@
-# Ryabtsev Aleksey
+# Aleksey Ryabtsev
 
 ## Contacts:
 - **Email:** aleksryabtsev@gmail.com
@@ -8,3 +8,9 @@
 ## About me:
 I want to become a fronted developer.
 
+## Skills:
+- HTML
+- CSS (SCSS/SASS)
+- JavaScript (basic)
+- Git/Github (basic)
+- Gulp, Webpack (basic)
