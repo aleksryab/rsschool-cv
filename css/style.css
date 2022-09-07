@@ -56,15 +56,11 @@ body {
 
 .wrapper {
   max-width: 1140px;
-  margin: 48px auto;
+  margin: 48px auto 0;
   padding: 0 15px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  column-gap: 30px;
-}
-
-.main {
-  min-height: 2000px;
+  gap: 30px;
 }
 
 .section {
@@ -74,8 +70,23 @@ body {
 }
 
 .section__title {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
   color: #fff;
   text-transform: uppercase;
+}
+
+.section__title::after {
+  content: '';
+  width: 45px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background-color: #fff;
 }
 
 .sidebar__wrapper {
@@ -160,9 +171,41 @@ body {
   text-decoration: none;
 }
 
-.contacts__link:hover {
+.contacts__link:hover,  .contacts__link:focus, .contacts__link:active{
   text-decoration: underline;
 }
+
+.footer {
+  width: 100%;
+  min-height: 50px;
+  padding: 48px;
+  grid-column: span 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #161820;
+}
+
+.footer__school-link {
+  text-decoration: none;
+}
+
+.footer__school-logo {
+  width: 120px;
+  display: block;
+}
+
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__link:hover,  .footer__link:focus, .footer__link:active{
+  opacity: 0.7;
+}
+
+
 
 
 
