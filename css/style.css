@@ -1,0 +1,171 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #85879d;
+  background-color: #101115;
+  background-image: linear-gradient(to bottom, rgb(12 14 17), rgb(19 20 32 / 90%)), url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 48px auto;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 30px;
+}
+
+.main {
+  min-height: 2000px;
+}
+
+.section {
+  padding: 48px;
+  border-radius: 4px;
+  background: #161820;
+}
+
+.section__title {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.sidebar__wrapper {
+  padding: 48px;
+  position: sticky;
+  top: 0;
+  border-radius: 4px;
+  background: #161820;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.info__pic {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 16px;
+  display: block;
+  border-radius: 50%;
+}
+
+.info__name {
+  margin: 0 0 5px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+.info__profession {
+  margin: 0;
+  padding: 0;
+
+}
+
+.contacts {
+  padding: 20px 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.contacts__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts__item {
+  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contacts__item::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contacts__item--mail::before {
+  background-image: url('../img/icons/envelope-ico.svg');
+}
+.contacts__item--telegram::before {
+  background-image: url('../img/icons/telegram-ico.svg');
+}
+.contacts__item--github::before {
+  background-image: url('../img/icons/github-ico.svg');
+}
+
+.contacts__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contacts__link:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
