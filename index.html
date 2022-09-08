@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aleksey Ryabtsev CV</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <aside class="sidebar">
+      <div class="sidebar__wrapper">
+        <div class="info">
+          <img src="img/avatar.jpg" class="info__pic" alt="Aleksey Ryabtsev">
+          <h1 class="info__name">Aleksey Ryabtsev</h1>
+          <p class="info__profession">Junior Front-end Developer</p>
+        </div>
+        <div class="contacts">
+          <ul class="contacts__list">
+            <li class="contacts__item contacts__item--mail">
+              <a href="mailto:aleksryabtsev@gmail.com" class="contacts__link">aleksryabtsev@gmail.com</a>
+            </li>
+            <li class="contacts__item contacts__item--telegram">
+              <a href="https://t.me/aleksryab" class="contacts__link">@aleksryab</a>
+            </li>
+            <li class="contacts__item contacts__item--github">
+              <a href="https://github.com/aleksryab" class="contacts__link">aleksryab</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </aside>
+    <main class="main">
+      <section class="section">
+        <h2 class="section__title">About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan turpis nec elit feugiat, et sodales ex pulvinar. Donec dolor massa, consequat eu interdum a, semper at lectus. Aliquam risus nibh, placerat eget condimentum id, eleifend quis tortor. Phasellus vel lacus urna. Nulla facilisi. Duis a purus vitae elit finibus aliquam. Aenean ut lectus quis ex eleifend imperdiet. In vitae mattis nibh. Vivamus nec lectus ac justo iaculis interdum.</p>
+      </section>
+      <section class="section">
+        <h2 class="section__title">Skills</h2>
+        <ul class="section__list">
+          <li class="section__list-item">HTML</li>
+          <li class="section__list-item">CSS (SCSS/SASS)</li>
+          <li class="section__list-item">JavaScript (basic)</li>
+          <li class="section__list-item">Git/GitHub</li>
+          <li class="section__list-item">Gulp, Webpack</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section__title">Code example</h2>
+        <p>
+          <a href="https://www.codewars.com/kata/52bc74d4ac05d0945d00054e/javascript" class="section__link">Description from Codewars:</a>
+          Write a function named <i> first_non_repeating_letter</i> that takes a string input, and returns the first character that is not repeated anywhere in the string.
+        </p>
+<pre><code>function firstNonRepeatingLetter(s) {
+  for (const char of s) {
+    let counter = 0;
+    for (const it of s) {
+      if (it.toLowerCase() === char.toLowerCase()) counter ++;
+    }
+    if (counter === 1) return char;
+  }
+  return '';
+}</code></pre>
+      </section>
+      <section class="section">
+        <h2 class="section__title">Projects</h2>
+        <p><a href="https://github.com/aleksryab/toxin-hotel" class="section__link">Toxin-Hotel</a> - shows my skills at the moment.</p>
+      </section>
+      <section class="section">
+        <h2 class="section__title">Languages</h2>
+        <p>Russian - native</p>
+        <p>English - B1 (Intermediate)</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">
+        &copy;2022 <a href="https://github.com/aleksryab" class="footer__link">aleksryab</a>
+      </p>
+      <a href="https://rs.school/js/" class="footer__school-link" title="Rolling Scopes School">
+        <img src="img/rsschool-logo.svg" alt="Rolling Scopes School logo" class="footer__school-logo">
+      </a>
+      <a href="https://angrystudio.com/preview/puro/" class="footer__link">Design Source</a>
+    </footer>
+  </div>
+</body>
+</html>
