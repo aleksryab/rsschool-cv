@@ -56,7 +56,7 @@ body {
 
 .wrapper {
   max-width: 1140px;
-  margin: 48px auto 0;
+  margin: 40px auto 0;
   padding: 0 15px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -65,7 +65,7 @@ body {
 
 .section {
   margin-bottom: 30px;
-  padding: 48px;
+  padding: 40px;
   border-radius: 4px;
   background: #161820;
 }
@@ -119,7 +119,7 @@ body {
 }
 
 .sidebar__wrapper {
-  padding: 48px;
+  padding: 40px;
   position: sticky;
   top: 0;
   border-radius: 4px;
@@ -207,13 +207,14 @@ body {
 .footer {
   width: 100%;
   min-height: 50px;
-  padding: 48px;
+  padding: 40px;
   grid-column: span 2;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background: #161820;
+  border-radius: 4px;
 }
 
 .footer__school-link {
